@@ -81,6 +81,7 @@ If the raster is valid, QgsRasterCalculator method is called using inputs:
 
 ### Code messages
 To begin the process and view its completion processCalculation method of the QgsRasterCalculator is invoked and printed. The output file of specified format is created in the location and can be viewed in QGIS. Outputs of printing processCalculation are of type enum corresponding to:
+
 |Enum  Value |Result|Description|
 |------------|------|-----------|
 |0|	Success 	|Calculation successful.|
